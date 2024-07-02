@@ -2,14 +2,15 @@ package inline
 
 import (
 	"fmt"
-	"github.com/metafates/mangal/source"
-	"github.com/metafates/mangal/util"
-	"github.com/samber/lo"
-	"github.com/samber/mo"
 	"io"
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/Phyrenos/U-Mangal/util"
+	"github.com/samber/lo"
+	"github.com/samber/mo"
 )
 
 type (

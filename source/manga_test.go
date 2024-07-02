@@ -1,13 +1,14 @@
 package source
 
 import (
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/util"
-	"github.com/samber/lo"
-	. "github.com/smartystreets/goconvey/convey"
 	"os"
 	"path/filepath"
 	"testing"
+
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/util"
+	"github.com/samber/lo"
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func init() {

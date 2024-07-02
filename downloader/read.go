@@ -2,15 +2,16 @@ package downloader
 
 import (
 	"fmt"
-	"github.com/metafates/mangal/color"
-	"github.com/metafates/mangal/constant"
-	"github.com/metafates/mangal/converter"
-	"github.com/metafates/mangal/history"
-	"github.com/metafates/mangal/key"
-	"github.com/metafates/mangal/log"
-	"github.com/metafates/mangal/open"
-	"github.com/metafates/mangal/source"
-	"github.com/metafates/mangal/style"
+
+	"github.com/Phyrenos/U-Mangal/color"
+	"github.com/Phyrenos/U-Mangal/constant"
+	"github.com/Phyrenos/U-Mangal/converter"
+	"github.com/Phyrenos/U-Mangal/history"
+	"github.com/Phyrenos/U-Mangal/key"
+	"github.com/Phyrenos/U-Mangal/log"
+	"github.com/Phyrenos/U-Mangal/open"
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/Phyrenos/U-Mangal/style"
 	"github.com/spf13/viper"
 )
 

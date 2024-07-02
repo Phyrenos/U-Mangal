@@ -2,12 +2,13 @@ package version
 
 import (
 	"fmt"
-	"github.com/metafates/mangal/color"
-	"github.com/metafates/mangal/constant"
-	"github.com/metafates/mangal/icon"
-	"github.com/metafates/mangal/key"
-	"github.com/metafates/mangal/style"
-	"github.com/metafates/mangal/util"
+
+	"github.com/Phyrenos/U-Mangal/color"
+	"github.com/Phyrenos/U-Mangal/constant"
+	"github.com/Phyrenos/U-Mangal/icon"
+	"github.com/Phyrenos/U-Mangal/key"
+	"github.com/Phyrenos/U-Mangal/style"
+	"github.com/Phyrenos/U-Mangal/util"
 	"github.com/spf13/viper"
 )
 
@@ -34,7 +35,7 @@ func Notify() {
 		style.Fg(color.Green)("▇▇▇"),
 		style.Bold(version),
 		style.Faint(fmt.Sprintf("(You're on %s)", constant.Version)),
-		style.Faint("https://github.com/metafates/mangal/releases/tag/v"+version),
+		style.Faint("https://github.com/Phyrenos/U-Mangal/releases/tag/v"+version),
 	)
 
 }

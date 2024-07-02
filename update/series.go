@@ -3,9 +3,10 @@ package update
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/source"
 	"path/filepath"
+
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/source"
 )
 
 func getSeriesJSON(manga string) (*source.SeriesJSON, error) {

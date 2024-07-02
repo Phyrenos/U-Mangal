@@ -1,10 +1,10 @@
 package tui
 
 import (
+	"github.com/Phyrenos/U-Mangal/color"
+	"github.com/Phyrenos/U-Mangal/style"
 	"github.com/charmbracelet/bubbles/key"
 	"github.com/charmbracelet/bubbles/list"
-	"github.com/metafates/mangal/color"
-	"github.com/metafates/mangal/style"
 )
 
 type statefulKeymap struct {

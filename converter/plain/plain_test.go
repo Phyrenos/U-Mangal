@@ -2,15 +2,16 @@ package plain
 
 import (
 	"bytes"
-	"github.com/metafates/mangal/config"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/source"
-	"github.com/samber/lo"
-	. "github.com/smartystreets/goconvey/convey"
 	"io/fs"
 	"os"
 	"path/filepath"
 	"testing"
+
+	"github.com/Phyrenos/U-Mangal/config"
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/samber/lo"
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func init() {

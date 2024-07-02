@@ -2,14 +2,15 @@ package tui
 
 import (
 	"fmt"
-	"github.com/metafates/mangal/anilist"
-	"github.com/metafates/mangal/history"
-	"github.com/metafates/mangal/icon"
-	"github.com/metafates/mangal/installer"
-	"github.com/metafates/mangal/provider"
-	"github.com/metafates/mangal/source"
-	"github.com/metafates/mangal/style"
 	"strings"
+
+	"github.com/Phyrenos/U-Mangal/anilist"
+	"github.com/Phyrenos/U-Mangal/history"
+	"github.com/Phyrenos/U-Mangal/icon"
+	"github.com/Phyrenos/U-Mangal/installer"
+	"github.com/Phyrenos/U-Mangal/provider"
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/Phyrenos/U-Mangal/style"
 )
 
 type listItem struct {

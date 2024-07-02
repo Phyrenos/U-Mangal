@@ -1,10 +1,11 @@
 package icon
 
 import (
-	"github.com/metafates/mangal/key"
+	"testing"
+
+	"github.com/Phyrenos/U-Mangal/key"
 	. "github.com/smartystreets/goconvey/convey"
 	"github.com/spf13/viper"
-	"testing"
 )
 
 func TestGet(t *testing.T) {

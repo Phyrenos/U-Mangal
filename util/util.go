@@ -2,17 +2,18 @@ package util
 
 import (
 	"fmt"
-	"github.com/metafates/mangal/constant"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/samber/lo"
-	"golang.org/x/exp/constraints"
-	"golang.org/x/term"
 	"os"
 	"os/exec"
 	"path/filepath"
 	"regexp"
 	"runtime"
 	"strings"
+
+	"github.com/Phyrenos/U-Mangal/constant"
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/samber/lo"
+	"golang.org/x/exp/constraints"
+	"golang.org/x/term"
 )
 
 // PadZero pads a number with leading zeros.

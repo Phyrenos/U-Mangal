@@ -2,10 +2,11 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/icon"
-	"github.com/metafates/mangal/util"
-	"github.com/metafates/mangal/where"
+
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/icon"
+	"github.com/Phyrenos/U-Mangal/util"
+	"github.com/Phyrenos/U-Mangal/where"
 	"github.com/samber/lo"
 	"github.com/samber/mo"
 	"github.com/spf13/cobra"

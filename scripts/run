@@ -35,7 +35,7 @@ download() {
 
 pre_run() {
     RELEASES_URL="https://github.com/metafates/mangal/releases"
-    FILE_BASENAME="mangal"
+    FILE_BASENAME="UMangal"
 
     info "Fetching latest version..."
     TAG="$(curl -sfL -o /dev/null -w "%{url_effective}" "$RELEASES_URL/latest" |
@@ -94,7 +94,7 @@ run() {
     (
         cd "$TMPDIR"
 
-        info "Downloading Mangal $VERSION..."
+        info "Downloading U-Mangal $VERSION..."
         download "$TAR_FILE" "$RELEASES_URL/download/$TAG/$TAR_NAME"
 
         info "Downloading checksums..."

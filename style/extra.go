@@ -1,8 +1,8 @@
 package style
 
 import (
+	"github.com/Phyrenos/U-Mangal/color"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/metafates/mangal/color"
 )
 
 var (

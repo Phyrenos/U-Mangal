@@ -2,13 +2,14 @@ package mangadex
 
 import (
 	"fmt"
-	"github.com/darylhjd/mangodex"
-	"github.com/metafates/mangal/key"
-	"github.com/metafates/mangal/source"
-	"github.com/spf13/viper"
-	"golang.org/x/exp/slices"
 	"net/url"
 	"strconv"
+
+	"github.com/Phyrenos/U-Mangal/key"
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/darylhjd/mangodex"
+	"github.com/spf13/viper"
+	"golang.org/x/exp/slices"
 )
 
 func (m *Mangadex) ChaptersOf(manga *source.Manga) ([]*source.Chapter, error) {

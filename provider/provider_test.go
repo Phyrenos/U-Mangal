@@ -1,9 +1,10 @@
 package provider
 
 import (
-	"github.com/metafates/mangal/provider/manganelo"
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	"github.com/Phyrenos/U-Mangal/provider/manganelo"
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func TestGet(t *testing.T) {

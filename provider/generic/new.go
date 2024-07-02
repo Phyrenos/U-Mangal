@@ -1,14 +1,15 @@
 package generic
 
 import (
-	"github.com/PuerkitoBio/goquery"
-	"github.com/gocolly/colly/v2"
-	"github.com/metafates/mangal/constant"
-	"github.com/metafates/mangal/source"
-	"github.com/metafates/mangal/where"
 	"path/filepath"
 	"strings"
 	"time"
+
+	"github.com/Phyrenos/U-Mangal/constant"
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/Phyrenos/U-Mangal/where"
+	"github.com/PuerkitoBio/goquery"
+	"github.com/gocolly/colly/v2"
 )
 
 // New generates a new scraper with given configuration

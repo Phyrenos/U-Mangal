@@ -2,13 +2,14 @@ package source
 
 import (
 	"fmt"
-	"github.com/metafates/mangal/constant"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/key"
-	"github.com/metafates/mangal/util"
+	"testing"
+
+	"github.com/Phyrenos/U-Mangal/constant"
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/key"
+	"github.com/Phyrenos/U-Mangal/util"
 	. "github.com/smartystreets/goconvey/convey"
 	"github.com/spf13/viper"
-	"testing"
 )
 
 func init() {

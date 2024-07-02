@@ -4,12 +4,13 @@ import (
 	"archive/zip"
 	"bytes"
 	"encoding/xml"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/key"
-	"github.com/metafates/mangal/source"
-	"github.com/metafates/mangal/util"
-	"github.com/spf13/viper"
 	"io"
+
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/key"
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/Phyrenos/U-Mangal/util"
+	"github.com/spf13/viper"
 )
 
 type CBZ struct{}

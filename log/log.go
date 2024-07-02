@@ -3,15 +3,16 @@ package log
 import (
 	"errors"
 	"fmt"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/key"
-	"github.com/metafates/mangal/where"
-	"github.com/samber/lo"
-	log "github.com/sirupsen/logrus"
-	"github.com/spf13/viper"
 	"os"
 	"path/filepath"
 	"time"
+
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/key"
+	"github.com/Phyrenos/U-Mangal/where"
+	"github.com/samber/lo"
+	log "github.com/sirupsen/logrus"
+	"github.com/spf13/viper"
 )
 
 var writeLogs bool

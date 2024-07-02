@@ -1,10 +1,11 @@
 package custom
 
 import (
-	"github.com/metafates/mangal/constant"
-	"github.com/metafates/mangal/source"
-	lua "github.com/yuin/gopher-lua"
 	"strconv"
+
+	"github.com/Phyrenos/U-Mangal/constant"
+	"github.com/Phyrenos/U-Mangal/source"
+	lua "github.com/yuin/gopher-lua"
 )
 
 func (s *luaSource) ChaptersOf(manga *source.Manga) ([]*source.Chapter, error) {

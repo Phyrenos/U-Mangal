@@ -2,19 +2,20 @@ package source
 
 import (
 	"fmt"
-	"github.com/dustin/go-humanize"
-	"github.com/metafates/mangal/constant"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/key"
-	"github.com/metafates/mangal/style"
-	"github.com/metafates/mangal/util"
-	"github.com/samber/mo"
-	"github.com/spf13/viper"
 	"os"
 	"path/filepath"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/Phyrenos/U-Mangal/constant"
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/key"
+	"github.com/Phyrenos/U-Mangal/style"
+	"github.com/Phyrenos/U-Mangal/util"
+	"github.com/dustin/go-humanize"
+	"github.com/samber/mo"
+	"github.com/spf13/viper"
 )
 
 // Chapter is a struct that represents a chapter of a manga.
@@ -213,7 +214,7 @@ func (c *Chapter) ComicInfo() *ComicInfo {
 		Letterer:   strings.Join(c.Manga.Metadata.Staff.Lettering, ","),
 		Translator: strings.Join(c.Manga.Metadata.Staff.Translation, ","),
 		Tags:       strings.Join(c.Manga.Metadata.Tags, ","),
-		Notes:      "Downloaded with Mangal. https://github.com/metafates/mangal",
+		Notes:      "Downloaded with Mangal. https://github.com/Phyrenos/U-Mangal",
 		Manga:      "YesAndRightToLeft",
 	}
 }

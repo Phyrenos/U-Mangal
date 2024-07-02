@@ -4,13 +4,14 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/metafates/mangal/constant"
-	"github.com/metafates/mangal/log"
-	"github.com/metafates/mangal/network"
-	"github.com/metafates/mangal/util"
 	_ "image/gif"
 	"io"
 	"net/http"
+
+	"github.com/Phyrenos/U-Mangal/constant"
+	"github.com/Phyrenos/U-Mangal/log"
+	"github.com/Phyrenos/U-Mangal/network"
+	"github.com/Phyrenos/U-Mangal/util"
 )
 
 // Page represents a page in a chapter

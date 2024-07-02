@@ -2,11 +2,12 @@ package zip
 
 import (
 	"archive/zip"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/source"
-	"github.com/metafates/mangal/util"
 	"io"
 	"time"
+
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/Phyrenos/U-Mangal/util"
 )
 
 type ZIP struct{}

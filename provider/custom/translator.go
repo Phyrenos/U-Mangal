@@ -2,13 +2,14 @@ package custom
 
 import (
 	"fmt"
-	"github.com/metafates/mangal/source"
-	"github.com/samber/lo"
-	lua "github.com/yuin/gopher-lua"
 	"net/url"
 	"path/filepath"
 	"strconv"
 	"strings"
+
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/samber/lo"
+	lua "github.com/yuin/gopher-lua"
 )
 
 type mapping lo.Tuple4[lua.LValueType, bool, func(string) error, string]

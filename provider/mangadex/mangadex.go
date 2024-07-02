@@ -1,8 +1,8 @@
 package mangadex
 
 import (
+	"github.com/Phyrenos/U-Mangal/source"
 	"github.com/darylhjd/mangodex"
-	"github.com/metafates/mangal/source"
 )
 
 const (

@@ -3,17 +3,18 @@ package downloader
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/metafates/mangal/color"
-	"github.com/metafates/mangal/converter"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/history"
-	"github.com/metafates/mangal/key"
-	"github.com/metafates/mangal/log"
-	"github.com/metafates/mangal/source"
-	"github.com/metafates/mangal/style"
-	"github.com/spf13/viper"
 	"os"
 	"path/filepath"
+
+	"github.com/Phyrenos/U-Mangal/color"
+	"github.com/Phyrenos/U-Mangal/converter"
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/history"
+	"github.com/Phyrenos/U-Mangal/key"
+	"github.com/Phyrenos/U-Mangal/log"
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/Phyrenos/U-Mangal/style"
+	"github.com/spf13/viper"
 )
 
 // Download the chapter using given source.

@@ -3,11 +3,12 @@ package mini
 import (
 	"bufio"
 	"fmt"
-	"github.com/metafates/mangal/color"
-	"github.com/metafates/mangal/style"
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/Phyrenos/U-Mangal/color"
+	"github.com/Phyrenos/U-Mangal/style"
 )
 
 type input struct {

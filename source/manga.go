@@ -2,21 +2,22 @@ package source
 
 import (
 	"fmt"
-	"github.com/metafates/mangal/anilist"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/key"
-	"github.com/metafates/mangal/log"
-	"github.com/metafates/mangal/util"
-	"github.com/metafates/mangal/where"
-	"github.com/samber/lo"
-	"github.com/samber/mo"
-	"github.com/spf13/viper"
 	"io"
 	"net/http"
 	"os"
 	"path/filepath"
 	"regexp"
 	"strings"
+
+	"github.com/Phyrenos/U-Mangal/anilist"
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/key"
+	"github.com/Phyrenos/U-Mangal/log"
+	"github.com/Phyrenos/U-Mangal/util"
+	"github.com/Phyrenos/U-Mangal/where"
+	"github.com/samber/lo"
+	"github.com/samber/mo"
+	"github.com/spf13/viper"
 )
 
 type date struct {

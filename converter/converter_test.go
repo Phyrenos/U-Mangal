@@ -1,9 +1,10 @@
 package converter
 
 import (
-	"github.com/metafates/mangal/constant"
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	"github.com/Phyrenos/U-Mangal/constant"
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func TestGet(t *testing.T) {

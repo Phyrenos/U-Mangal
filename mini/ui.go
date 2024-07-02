@@ -2,12 +2,13 @@ package mini
 
 import (
 	"fmt"
-	"github.com/metafates/mangal/color"
-	"github.com/metafates/mangal/style"
-	"github.com/samber/lo"
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/Phyrenos/U-Mangal/color"
+	"github.com/Phyrenos/U-Mangal/style"
+	"github.com/samber/lo"
 )
 
 func progress(msg string) (eraser func()) {

@@ -2,10 +2,11 @@ package mini
 
 import (
 	"errors"
-	"github.com/metafates/mangal/source"
-	"github.com/metafates/mangal/util"
-	"github.com/samber/lo"
 	"os"
+
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/Phyrenos/U-Mangal/util"
+	"github.com/samber/lo"
 )
 
 var (

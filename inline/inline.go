@@ -1,12 +1,13 @@
 package inline
 
 import (
-	"github.com/metafates/mangal/downloader"
-	"github.com/metafates/mangal/key"
-	"github.com/metafates/mangal/log"
-	"github.com/metafates/mangal/source"
-	"github.com/spf13/viper"
 	"os"
+
+	"github.com/Phyrenos/U-Mangal/downloader"
+	"github.com/Phyrenos/U-Mangal/key"
+	"github.com/Phyrenos/U-Mangal/log"
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/spf13/viper"
 )
 
 func Run(options *Options) (err error) {

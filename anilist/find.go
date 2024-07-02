@@ -2,11 +2,12 @@ package anilist
 
 import (
 	"fmt"
-	levenshtein "github.com/ka-weihe/fast-levenshtein"
-	"github.com/metafates/mangal/log"
-	"github.com/metafates/mangal/util"
-	"github.com/samber/lo"
 	"strings"
+
+	"github.com/Phyrenos/U-Mangal/log"
+	"github.com/Phyrenos/U-Mangal/util"
+	levenshtein "github.com/ka-weihe/fast-levenshtein"
+	"github.com/samber/lo"
 )
 
 // normalizedName returns a normalized name for comparison

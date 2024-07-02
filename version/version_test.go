@@ -1,11 +1,12 @@
 package version
 
 import (
-	"github.com/metafates/mangal/constant"
-	. "github.com/smartystreets/goconvey/convey"
 	"regexp"
 	"runtime"
 	"testing"
+
+	"github.com/Phyrenos/U-Mangal/constant"
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func TestLatestVersion(t *testing.T) {

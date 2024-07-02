@@ -21,6 +21,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"path/filepath"
 	"reflect"
 	"strconv"
 	"strings"
@@ -64,10 +65,11 @@ var EnableCaseInsensitive = defaultCaseInsensitive
 // if the CLI is started from explorer.exe.
 // To disable the mousetrap, just set this variable to blank string ("").
 // Works only on Microsoft Windows.
-var MousetrapHelpText = `This is a command line tool.
+var MousetrapHelpText = fmt.Sprintf(`
+This is a command line tool.
 
-You need to open cmd.exe and run it from there.
-`
+Please type .\%s --help to get started in Command Prompt or Terminal.
+`, filepath.Base(os.Args[0]))
 
 // MousetrapDisplayDuration controls how long the MousetrapHelpText message is displayed on Windows
 // if the CLI is started from explorer.exe. Set to 0 to wait for the return key to be pressed.

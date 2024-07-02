@@ -1,16 +1,17 @@
 package cmd
 
 import (
-	"github.com/metafates/mangal/color"
-	"github.com/metafates/mangal/config"
-	"github.com/metafates/mangal/constant"
-	"github.com/metafates/mangal/style"
-	"github.com/metafates/mangal/where"
+	"os"
+	"strings"
+
+	"github.com/Phyrenos/U-Mangal/color"
+	"github.com/Phyrenos/U-Mangal/config"
+	"github.com/Phyrenos/U-Mangal/constant"
+	"github.com/Phyrenos/U-Mangal/style"
+	"github.com/Phyrenos/U-Mangal/where"
 	"github.com/samber/lo"
 	"github.com/spf13/cobra"
 	"golang.org/x/exp/slices"
-	"os"
-	"strings"
 )
 
 func init() {

@@ -1,9 +1,10 @@
 package mangapill
 
 import (
-	"github.com/metafates/mangal/provider/generic"
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	"github.com/Phyrenos/U-Mangal/provider/generic"
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func TestManganelo(t *testing.T) {

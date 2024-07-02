@@ -2,14 +2,15 @@ package converter
 
 import (
 	"fmt"
-	"github.com/metafates/mangal/constant"
-	"github.com/metafates/mangal/converter/cbz"
-	"github.com/metafates/mangal/converter/pdf"
-	"github.com/metafates/mangal/converter/plain"
-	"github.com/metafates/mangal/converter/zip"
-	"github.com/metafates/mangal/source"
-	"github.com/samber/lo"
 	"strings"
+
+	"github.com/Phyrenos/U-Mangal/constant"
+	"github.com/Phyrenos/U-Mangal/converter/cbz"
+	"github.com/Phyrenos/U-Mangal/converter/pdf"
+	"github.com/Phyrenos/U-Mangal/converter/plain"
+	"github.com/Phyrenos/U-Mangal/converter/zip"
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/samber/lo"
 )
 
 // Converter is the interface that all converters must implement.

@@ -3,13 +3,14 @@ package version
 import (
 	"encoding/json"
 	"errors"
-	"github.com/metafates/gache"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/util"
-	"github.com/metafates/mangal/where"
 	"net/http"
 	"path/filepath"
 	"time"
+
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/util"
+	"github.com/Phyrenos/U-Mangal/where"
+	"github.com/metafates/gache"
 )
 
 var versionCacher = gache.New[string](&gache.Options{
@@ -30,7 +31,7 @@ func Latest() (version string, err error) {
 		return ver, nil
 	}
 
-	resp, err := http.Get("https://api.github.com/repos/metafates/mangal/releases/latest")
+	resp, err := http.Get("https://api.github.com/repos/Phyrenos/U-Mangal/releases/latest")
 	if err != nil {
 		return
 	}

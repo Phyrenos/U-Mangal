@@ -3,15 +3,16 @@ package update
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/metafates/mangal/constant"
-	"github.com/metafates/mangal/converter/cbz"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/log"
-	"github.com/metafates/mangal/source"
-	"github.com/metafates/mangal/util"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/Phyrenos/U-Mangal/constant"
+	"github.com/Phyrenos/U-Mangal/converter/cbz"
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/log"
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/Phyrenos/U-Mangal/util"
 )
 
 func Metadata(mangaPath string) error {

@@ -1,9 +1,10 @@
 package generic
 
 import (
-	"github.com/gocolly/colly/v2"
-	"github.com/metafates/mangal/source"
 	"net/http"
+
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/gocolly/colly/v2"
 )
 
 // PagesOf given source.Chapter

@@ -2,12 +2,13 @@ package open
 
 import (
 	"fmt"
-	"github.com/metafates/mangal/constant"
 	"os"
 	"os/exec"
 	"path/filepath"
 	"runtime"
 	"strings"
+
+	"github.com/Phyrenos/U-Mangal/constant"
 )
 
 var (

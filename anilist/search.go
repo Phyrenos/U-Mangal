@@ -4,12 +4,13 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/metafates/mangal/log"
-	"github.com/metafates/mangal/network"
-	"github.com/metafates/mangal/query"
-	"github.com/samber/lo"
 	"net/http"
 	"strconv"
+
+	"github.com/Phyrenos/U-Mangal/log"
+	"github.com/Phyrenos/U-Mangal/network"
+	"github.com/Phyrenos/U-Mangal/query"
+	"github.com/samber/lo"
 )
 
 type searchByNameResponse struct {

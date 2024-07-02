@@ -3,7 +3,7 @@
 $release_url = "https://api.github.com/repos/metafates/mangal/releases"
 $tag = (Invoke-WebRequest -Uri $release_url -UseBasicParsing | ConvertFrom-Json)[0].tag_name
 $version = $tag.substring(1)
-$loc = "$HOME\AppData\Local\mangal"
+$loc = "$HOME\AppData\Local\U-Mangal"
 $url = ""
 $arch = $env:PROCESSOR_ARCHITECTURE
 $releases_api_url = "https://github.com/metafates/mangal/releases/download/$tag/mangal_${version}_Windows"

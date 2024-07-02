@@ -1,12 +1,13 @@
 package anilist
 
 import (
-	"github.com/metafates/gache"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/where"
-	"github.com/samber/mo"
 	"path/filepath"
 	"time"
+
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/where"
+	"github.com/metafates/gache"
+	"github.com/samber/mo"
 )
 
 type cacheData[K comparable, T any] struct {

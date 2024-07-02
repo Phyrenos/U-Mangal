@@ -2,17 +2,18 @@ package tui
 
 import (
 	"fmt"
-	"github.com/charmbracelet/lipgloss"
-	"github.com/metafates/mangal/color"
-	"github.com/metafates/mangal/icon"
-	"github.com/metafates/mangal/key"
-	"github.com/metafates/mangal/style"
-	"github.com/metafates/mangal/util"
-	"github.com/muesli/reflow/wrap"
-	"github.com/spf13/viper"
 	"math/rand"
 	"strconv"
 	"strings"
+
+	"github.com/Phyrenos/U-Mangal/color"
+	"github.com/Phyrenos/U-Mangal/icon"
+	"github.com/Phyrenos/U-Mangal/key"
+	"github.com/Phyrenos/U-Mangal/style"
+	"github.com/Phyrenos/U-Mangal/util"
+	"github.com/charmbracelet/lipgloss"
+	"github.com/muesli/reflow/wrap"
+	"github.com/spf13/viper"
 )
 
 func (b *statefulBubble) View() string {
@@ -120,7 +121,9 @@ func (b *statefulBubble) downloadingChapterMetainfo() string {
 	// it can be one for a brief moment.
 	// I assume that it's because View() is called before Update()
 	if b.currentDownloadingChapter != nil {
-		metainfo.WriteString("From ")
+		metainfo.WriteString("Downloading ")
+		metainfo.WriteString(style.Fg(color.Green)(b.currentDownloadingChapter.Manga.Name))
+		metainfo.WriteString(" From ")
 		metainfo.WriteString(style.Fg(color.Orange)(b.currentDownloadingChapter.Source().Name()))
 		metainfo.WriteString(" as ")
 	}
@@ -164,7 +167,9 @@ func (b *statefulBubble) viewDownload() string {
 		[]string{
 			style.Title("Downloading"),
 			"",
-			style.Truncate(b.width)(fmt.Sprintf(icon.Get(icon.Progress)+" Downloading %s", style.Fg(color.Purple)(chapterName))),
+			style.Truncate(b.width)(fmt.Sprintf(icon.Get(icon.Progress)+" Downloading %s / %s",
+				style.Fg(color.Purple)(chapterName),
+				style.Fg(color.Purple)(fmt.Sprintf("%d", len(b.selectedChapters))))),
 			"",
 			b.progressC.View(),
 			"",

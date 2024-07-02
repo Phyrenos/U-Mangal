@@ -1,9 +1,9 @@
 package query
 
 import (
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/where"
 	"github.com/metafates/gache"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/where"
 )
 
 type queryRecord struct {

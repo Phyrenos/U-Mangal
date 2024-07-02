@@ -1,14 +1,15 @@
 package provider
 
 import (
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/provider/custom"
-	"github.com/metafates/mangal/source"
-	"github.com/metafates/mangal/util"
-	"github.com/metafates/mangal/where"
-	"github.com/samber/lo"
 	"os"
 	"path/filepath"
+
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/provider/custom"
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/Phyrenos/U-Mangal/util"
+	"github.com/Phyrenos/U-Mangal/where"
+	"github.com/samber/lo"
 )
 
 type Provider struct {

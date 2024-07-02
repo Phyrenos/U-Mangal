@@ -2,22 +2,23 @@ package tui
 
 import (
 	"fmt"
-	"github.com/charmbracelet/bubbles/list"
-	tea "github.com/charmbracelet/bubbletea"
-	"github.com/metafates/mangal/anilist"
-	"github.com/metafates/mangal/color"
-	"github.com/metafates/mangal/downloader"
-	"github.com/metafates/mangal/installer"
-	"github.com/metafates/mangal/key"
-	"github.com/metafates/mangal/log"
-	"github.com/metafates/mangal/provider"
-	"github.com/metafates/mangal/source"
-	"github.com/metafates/mangal/style"
-	"github.com/metafates/mangal/util"
-	"github.com/spf13/viper"
-	"golang.org/x/exp/slices"
 	"strings"
 	"sync"
+
+	"github.com/Phyrenos/U-Mangal/anilist"
+	"github.com/Phyrenos/U-Mangal/color"
+	"github.com/Phyrenos/U-Mangal/downloader"
+	"github.com/Phyrenos/U-Mangal/installer"
+	"github.com/Phyrenos/U-Mangal/key"
+	"github.com/Phyrenos/U-Mangal/log"
+	"github.com/Phyrenos/U-Mangal/provider"
+	"github.com/Phyrenos/U-Mangal/source"
+	"github.com/Phyrenos/U-Mangal/style"
+	"github.com/Phyrenos/U-Mangal/util"
+	"github.com/charmbracelet/bubbles/list"
+	tea "github.com/charmbracelet/bubbletea"
+	"github.com/spf13/viper"
+	"golang.org/x/exp/slices"
 )
 
 func (b *statefulBubble) loadScrapers() tea.Cmd {

@@ -1,12 +1,13 @@
 package plain
 
 import (
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/source"
 	"io"
 	"os"
 	"path/filepath"
 	"sync"
+
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/source"
 )
 
 type Plain struct{}

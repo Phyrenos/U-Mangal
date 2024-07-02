@@ -2,10 +2,11 @@ package history
 
 import (
 	"fmt"
-	"github.com/metafates/mangal/filesystem"
-	"github.com/metafates/mangal/source"
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	"github.com/Phyrenos/U-Mangal/filesystem"
+	"github.com/Phyrenos/U-Mangal/source"
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 type testSource struct{}

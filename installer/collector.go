@@ -1,17 +1,18 @@
 package installer
 
 import (
-	"github.com/metafates/mangal/key"
-	"github.com/metafates/mangal/util"
+	"path/filepath"
+
+	"github.com/Phyrenos/U-Mangal/key"
+	"github.com/Phyrenos/U-Mangal/util"
 	"github.com/samber/lo"
 	"github.com/spf13/viper"
-	"path/filepath"
 )
 
 var collector *githubFilesCollector
 
 // Scrapers gets available scrapers from GitHub repo.
-// See https://github.com/metafates/mangal-scrapers
+// See https://github.com/Phyrenos/U-Mangal-scrapers
 func Scrapers() ([]*Scraper, error) {
 	if collector == nil {
 		setupCollector()

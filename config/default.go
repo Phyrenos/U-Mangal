@@ -3,16 +3,17 @@ package config
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/metafates/mangal/color"
-	"github.com/metafates/mangal/constant"
-	"github.com/metafates/mangal/key"
-	"github.com/metafates/mangal/style"
-	"github.com/samber/lo"
-	"github.com/spf13/viper"
 	"reflect"
 	"strconv"
 	"strings"
 	"text/template"
+
+	"github.com/Phyrenos/U-Mangal/color"
+	"github.com/Phyrenos/U-Mangal/constant"
+	"github.com/Phyrenos/U-Mangal/key"
+	"github.com/Phyrenos/U-Mangal/style"
+	"github.com/samber/lo"
+	"github.com/spf13/viper"
 )
 
 // Field represents a single config field

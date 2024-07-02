@@ -4,11 +4,12 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/metafates/mangal/anilist"
-	"github.com/metafates/mangal/log"
-	"github.com/metafates/mangal/source"
 	"net/http"
 	"strconv"
+
+	"github.com/Phyrenos/U-Mangal/anilist"
+	"github.com/Phyrenos/U-Mangal/log"
+	"github.com/Phyrenos/U-Mangal/source"
 )
 
 var markReadQuery = `
